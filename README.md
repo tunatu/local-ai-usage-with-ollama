@@ -12,7 +12,7 @@
 VENV:
 
 ```bash
-git clone https://github.com/tunatu/local-ai-usage-with-ollama/tree/main
+git clone https://github.com/tunatu/local-ai-usage-with-ollama/
 cd local-ai-usage-with-ollama
 source ./bin/activate
 python main.py
