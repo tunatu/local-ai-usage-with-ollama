@@ -31,5 +31,6 @@ ollama serve
 ```
 i dont have ollama 
 * head over to [here](https://ollama.com/download) and pick your operating system
+
 why is this in turkish
 * i didnt realy plan on making this open source but you can use google translate [here](https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
