@@ -1,0 +1,74 @@
+body {
+    height: 180vh;
+    background: linear-gradient(to bottom, aqua,navy);
+}
+.mainwindow {
+    background: linear-gradient(to bottom, snow,aqua);
+    width:fit-content ;
+    height:auto;
+    border-radius: 20px;
+}
+.texto{
+    width: 550px;
+    height: 60px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    resize:vertical;
+}
+.xubmit{
+    width: 90px;
+    height: 50px;
+    font-size: large;
+    background-color:azure;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.comeback{
+    padding-bottom: 20px;
+    overflow-wrap: break-word;
+}
+.warnt{
+    border-style:solid;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+    margin-bottom: 25px;
+    border-color: blue;
+}
+.warn{
+    height: auto;
+    width: auto;
+    color: rgb(26, 83, 85);
+}
+.warntext{
+    color:cadetblue;
+}
+.res {
+  display: none; /* hidden until response exists */
+  /* your existing styles below ↓ */
+  max-width: 90%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  height: auto;
+  width: auto;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background: #f8ffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.res pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: monospace;
+  font-size: 14px;
+  margin: 0;
+  color: rgb(26, 83, 85);
+}
+.inerte{
+    margin-left: 140px;
+    margin-right: 140px;
+}
