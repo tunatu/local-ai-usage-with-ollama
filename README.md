@@ -11,16 +11,22 @@
 
 VENV:
 
+### Linux
 ```bash
 git clone https://github.com/tunatu/local-ai-usage-with-ollama/
 cd local-ai-usage-with-ollama
 source ./bin/activate
 python main.py
 ```
+### Windows
+```bash
+# i didnt make this venv for windows so you have to substitute :(
+```
+
 
 ## Usage
 
-* replace "MODEL = 'yourmodelhere'" at line 7 with your prefered model and ensure your ollama server is on if not check faq
+* replace "MODEL = 'yourmodelhere'" at line 7 with your prefered model and ensure your ollama server is on if not check FAQ
 * Head over to 127.0.0.1:5000 and Enjoy!
 
 ## FAQ
