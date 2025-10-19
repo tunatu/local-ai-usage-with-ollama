@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Her yol romaya gidiyor...</title>
+</head>
+<body>
+    <script src="../static/script.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <center>
+    <div class="mainwindow">
+        <div class="inerte">
+        <h2 style="padding: 20px;">Merhaba! Nasıl Yardımcı Olabilirim?</h2>
+        <form action="/" method="post">
+            <textarea name="texin" id="texin" placeholder="Merhaba, tarih ödevime yardım edebilir misin?" class="texto" required></textarea>
+            <br>
+            <button onclick="trig(event)">Gönder!</button>
+            <br>
+            <img src="" alt="" id="gid">
+        </form>
+        
+        <div class="warnt">
+                <h4 class="warntext">Dikkat</h4>
+                <p class="warn">Lütfen düğmeye bastığınızda ve hemen yüklenmediğinde devamlı basmayınız sayfa çok yavaş veya bozuk görünebilir ama üreticide openai veri merkezleri gibi bir güç olmadığı için tek yapacağınız enerji israfı olacaktır</p>
+                <p class="warn">anlayışınız için teşekkürler</p>
+                <button onclick="trog()">Anlıyorum</button>
+            </div>
+        
+        <div class="res" id="responseBox">
+        {% if response %}
+        <pre>{{ response }}</pre>
+        {% endif %}
+        </div>
+        </div>
+    </div>
+    </center>
+    
+</body>
+</html>
