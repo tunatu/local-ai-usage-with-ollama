@@ -4,8 +4,10 @@ import json
 
 app = Flask(__name__)
 
+MODEL = "yourmodelhere"
+
 SABLON = {
-    "model": "ilovecp",
+    "model": MODEL,
     "stream": True
 }
 def handle_prompt(inpp):
